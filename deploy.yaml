@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: api
-        image: musmanayub/apirepo:v4
+        image: musmanayub/apirepo:v5
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8000
